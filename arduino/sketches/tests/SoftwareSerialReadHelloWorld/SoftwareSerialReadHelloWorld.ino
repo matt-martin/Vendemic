@@ -16,7 +16,7 @@ void setup()
 void loop() // run over and over
 {
   if (mySerial.available()) {
-   char c = mySerial.read();
+   int c = mySerial.read();
    Serial.println(c); 
   }
 }
