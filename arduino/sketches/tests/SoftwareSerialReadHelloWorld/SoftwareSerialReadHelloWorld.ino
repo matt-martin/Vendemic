@@ -17,6 +17,6 @@ void loop() // run over and over
 {
   if (mySerial.available()) {
    int c = mySerial.read();
-   Serial.println(c); 
+   Serial.println(c, BIN); 
   }
 }
