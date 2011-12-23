@@ -24,6 +24,6 @@ void loop() // run over and over
   //Serial.write("Hello from the Arduino UNO!");
   mySerial.write_nine_bits(i);
   //mySerial.write(i);
-  
+  delay(100);
   i++;
 }
