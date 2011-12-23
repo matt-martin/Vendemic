@@ -24,6 +24,7 @@ void loop() // run over and over
    if (numReads == 1) {
      mySerial.write_nine_bits(0x1ff);
    }
-  }
   numReads++;
+
+  }
 }
